@@ -213,6 +213,7 @@ float BH1750FVI::readLightLevel(void)
   {
     case BH1750_CONTINUOUS_HIGH_RES_MODE:
     case BH1750_CONTINUOUS_HIGH_RES_MODE_2:
+      break;
     case BH1750_ONE_TIME_HIGH_RES_MODE:
     case BH1750_ONE_TIME_HIGH_RES_MODE_2:
       integrationTime = _sensitivity * 180;                   //120..180msec * (0.45 .. 3.68) 
